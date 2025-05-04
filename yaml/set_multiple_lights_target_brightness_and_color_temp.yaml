@@ -1,0 +1,41 @@
+alias: 批量修改目标亮度与色温
+description: ""
+fields:
+  brightness_pct:
+    description: 目标亮度百分比（0-100）
+    required: true
+    example: 80
+  kelvin:
+    description: 目标色温（单位：开尔文）
+    required: true
+    example: 4700
+  device_pattern:
+    description: 设备名称的正则表达式（如 '卧室射灯 \d'）
+    required: true
+    example: 卧室射灯 \d
+sequence:
+  - parallel:
+      - action: var.set
+        alias: 批量修改目标亮度
+        metadata: {}
+        data:
+          entity_id: >-
+            {% set var_entity = namespace(prefixed_list=[]) %} {% for entity in
+            states.var %}
+              {% if entity.attributes.friendly_name is match(device_pattern) and entity.attributes.friendly_name.endswith('亮度')  %}
+                {% set var_entity.prefixed_list = var_entity.prefixed_list + [ entity.entity_id ] %}
+              {% endif %}
+            {% endfor %} {{ var_entity.prefixed_list | list }}
+          value: "{{ brightness_pct | int }}"
+      - action: var.set
+        alias: 批量修改目标色温
+        metadata: {}
+        data:
+          entity_id: >-
+            {% set var_entity = namespace(prefixed_list=[]) %} {% for entity in
+            states.var %}
+              {% if entity.attributes.friendly_name is match(device_pattern) and entity.attributes.friendly_name.endswith('色温')  %}
+                {% set var_entity.prefixed_list = var_entity.prefixed_list + [ entity.entity_id ] %}
+              {% endif %}
+            {% endfor %} {{ var_entity.prefixed_list | list }}
+          value: "{{ kelvin | int }}"

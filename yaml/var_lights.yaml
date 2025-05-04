@@ -1,0 +1,310 @@
+light_brightness_lemesh_cn_1124092164_wy0c24_s_2_light:
+  friendly_name: '门口射灯  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1124092164_wy0c24_s_2_light:
+  friendly_name: '门口射灯  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1120649848_wy0c24_s_2_light:
+  friendly_name: '走廊灯 2  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1120649848_wy0c24_s_2_light:
+  friendly_name: '走廊灯 2  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1120805227_wy0c24_s_2_light:
+  friendly_name: '走廊灯 1  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1120805227_wy0c24_s_2_light:
+  friendly_name: '走廊灯 1  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1121166528_wy0c24_s_2_light:
+  friendly_name: '射灯 3  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1121166528_wy0c24_s_2_light:
+  friendly_name: '射灯 3  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1121167017_wy0c24_s_2_light:
+  friendly_name: '射灯 4  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1121167017_wy0c24_s_2_light:
+  friendly_name: '射灯 4  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1121167159_wy0c24_s_2_light:
+  friendly_name: '射灯 1  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1121167159_wy0c24_s_2_light:
+  friendly_name: '射灯 1  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1121168146_wy0c24_s_2_light:
+  friendly_name: '射灯 2  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1121168146_wy0c24_s_2_light:
+  friendly_name: '射灯 2  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_opple_cn_831953828_moat_s_2_light:
+  friendly_name: '餐厅灯  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_opple_cn_831953828_moat_s_2_light:
+  friendly_name: '餐厅灯  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_opple_cn_845038404_moat_s_2_light:
+  friendly_name: '客厅灯  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_opple_cn_845038404_moat_s_2_light:
+  friendly_name: '客厅灯  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1120498967_wy0c24_s_2_light:
+  friendly_name: '阳台灯 1  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1120498967_wy0c24_s_2_light:
+  friendly_name: '阳台灯 1  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1120804999_wy0c24_s_2_light:
+  friendly_name: '阳台灯 2  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1120804999_wy0c24_s_2_light:
+  friendly_name: '阳台灯 2  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1121162556_wy0c24_s_2_light:
+  friendly_name: '阳台灯 3  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1121162556_wy0c24_s_2_light:
+  friendly_name: '阳台灯 3  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_ftd_cn_1125537084_dsplmp_s_2_light:
+  friendly_name: '阳台灯带  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_ftd_cn_1125537084_dsplmp_s_2_light:
+  friendly_name: '阳台灯带  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_xiaomi_cn_819688679_lyj3xs_s_3_light:
+  friendly_name: '晾衣架2  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_xiaomi_cn_819688679_lyj3xs_s_3_light:
+  friendly_name: '晾衣架2  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_xiaomi_cn_819783851_lyj3xs_s_3_light:
+  friendly_name: '晾衣架1  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_xiaomi_cn_819783851_lyj3xs_s_3_light:
+  friendly_name: '晾衣架1  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1120561054_wy0c24_s_2_light:
+  friendly_name: '厨房筒灯右  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1120561054_wy0c24_s_2_light:
+  friendly_name: '厨房筒灯右  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1121173938_wy0c24_s_2_light:
+  friendly_name: '厨房筒灯左  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1121173938_wy0c24_s_2_light:
+  friendly_name: '厨房筒灯左  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1123300235_wy0c24_s_2_light:
+  friendly_name: '厨房灯  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1123300235_wy0c24_s_2_light:
+  friendly_name: '厨房灯  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1120805171_wy0c24_s_2_light:
+  friendly_name: '主卧筒灯  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1120805171_wy0c24_s_2_light:
+  friendly_name: '主卧筒灯  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_opple_cn_845028809_moat_s_2_light:
+  friendly_name: '主卧灯  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_opple_cn_845028809_moat_s_2_light:
+  friendly_name: '主卧灯  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_opple_cn_847058390_moat_s_2_light:
+  friendly_name: '次卧灯  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_opple_cn_847058390_moat_s_2_light:
+  friendly_name: '次卧灯  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1121162570_wy0c24_s_2_light:
+  friendly_name: '主卫筒灯 1  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1121162570_wy0c24_s_2_light:
+  friendly_name: '主卫筒灯 1  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1121174323_wy0c24_s_2_light:
+  friendly_name: '主卫筒灯 2  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1121174323_wy0c24_s_2_light:
+  friendly_name: '主卫筒灯 2  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_aupu_cn_822711474_s10m2_s_2_light:
+  friendly_name: '主卫浴霸  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_aupu_cn_822711474_s10m2_s_2_light:
+  friendly_name: '主卫浴霸  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1120804698_wy0c24_s_2_light:
+  friendly_name: '次卫筒灯 1  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1120804698_wy0c24_s_2_light:
+  friendly_name: '次卫筒灯 1  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_lemesh_cn_1120985233_wy0c24_s_2_light:
+  friendly_name: '次卫筒灯 2  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_lemesh_cn_1120985233_wy0c24_s_2_light:
+  friendly_name: '次卫筒灯 2  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_aupu_cn_822614309_s10m2_s_2_light:
+  friendly_name: '次卫浴霸  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_aupu_cn_822614309_s10m2_s_2_light:
+  friendly_name: '次卫浴霸  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_ftd_cn_1119497471_dsplmp_s_2_light:
+  friendly_name: '书房床头灯带  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_ftd_cn_1119497471_dsplmp_s_2_light:
+  friendly_name: '书房床头灯带  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_ftd_cn_1120477125_dsplmp_s_2_light:
+  friendly_name: '电脑桌灯带  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_ftd_cn_1120477125_dsplmp_s_2_light:
+  friendly_name: '电脑桌灯带  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_yeelink_cn_112632203_lamp1_s_2_light:
+  friendly_name: '米家台灯  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_yeelink_cn_112632203_lamp1_s_2_light:
+  friendly_name: '米家台灯  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_opple_cn_831954468_moat_s_2_light:
+  friendly_name: '书房灯  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_opple_cn_831954468_moat_s_2_light:
+  friendly_name: '书房灯  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
