@@ -5,6 +5,12 @@ triggers:
     entity_id:
       - var.light_brightness_lemesh_cn_1124092164_wy0c24_s_2_light
       - var.light_kelvin_lemesh_cn_1124092164_wy0c24_s_2_light
+      - var.light_brightness_ftd_cn_1119936519_dsplmp_s_2_light
+      - var.light_kelvin_ftd_cn_1119936519_dsplmp_s_2_light
+      - var.light_brightness_ftd_cn_1120461607_dsplmp_s_2_light
+      - var.light_kelvin_ftd_cn_1120461607_dsplmp_s_2_light
+      - var.light_brightness_ftd_cn_1120483358_dsplmp_s_2_light
+      - var.light_kelvin_ftd_cn_1120483358_dsplmp_s_2_light
       - var.light_brightness_lemesh_cn_1120649848_wy0c24_s_2_light
       - var.light_kelvin_lemesh_cn_1120649848_wy0c24_s_2_light
       - var.light_brightness_lemesh_cn_1120805227_wy0c24_s_2_light

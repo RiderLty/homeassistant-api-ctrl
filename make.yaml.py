@@ -91,13 +91,46 @@ actions:
 mode: parallel
 '''
 
+lights_manual_control_var = r'''alias: 手动调整变化同步变量
+description: ""
+triggers:
+  - entity_id:
+    - light.replacelist
+    trigger: state
+conditions: []
+actions:
+  - parallel:
+      - action: var.set
+        alias: 修改亮度变量
+        metadata: {}
+        data:
+          entity_id: "{{ 'var.light_brightness_' ~ trigger.entity_id[6:]}}"
+          value: "{{int(trigger.to_state.attributes.brightness / 2.55) | int}}"
+      - action: var.set
+        alias: 修改色温变量
+        metadata: {}
+        data:
+          entity_id: "{{ 'var.light_kelvin_' ~ trigger.entity_id[6:]}}"
+          value: "{{trigger.to_state.attributes.color_temp_kelvin | int}}"
+mode: parallel
+'''
+
+
+
+
+
 var_control_lights = var_control_lights.replace("      - var.replacelist" , var_entries)
 set_lights_to_var_target = set_lights_to_var_target.replace("    - light.replacelist" , light_entries)
+lights_manual_control_var = lights_manual_control_var.replace("    - light.replacelist" , light_entries)
+
+
 
 os.makedirs("yaml" , exist_ok=True)
 with open("yaml/var_control_lights.yaml" , "w" , encoding="utf-8") as f:
     f.write(var_control_lights)
 with open("yaml/set_lights_to_var_target.yaml" , "w" , encoding="utf-8") as f:
     f.write(set_lights_to_var_target)
+with open("yaml/lights_manual_control_var.yaml" , "w" , encoding="utf-8") as f:
+    f.write(lights_manual_control_var)  
 with open("yaml/var_lights.yaml" , "w" , encoding="utf-8") as f:
     f.write(var_lights) 

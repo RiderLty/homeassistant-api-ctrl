@@ -8,6 +8,36 @@ light_kelvin_lemesh_cn_1124092164_wy0c24_s_2_light:
   initial_value: 4700
   restore: false
   icon: mdi:temperature-kelvin
+light_brightness_ftd_cn_1119936519_dsplmp_s_2_light:
+  friendly_name: '电视灯带  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_ftd_cn_1119936519_dsplmp_s_2_light:
+  friendly_name: '电视灯带  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_ftd_cn_1120461607_dsplmp_s_2_light:
+  friendly_name: '门侧灯带  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_ftd_cn_1120461607_dsplmp_s_2_light:
+  friendly_name: '门侧灯带  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
+light_brightness_ftd_cn_1120483358_dsplmp_s_2_light:
+  friendly_name: '冰箱灯带  灯  目标亮度'
+  initial_value: 80
+  restore: false
+  icon: mdi:brightness-6
+light_kelvin_ftd_cn_1120483358_dsplmp_s_2_light:
+  friendly_name: '冰箱灯带  灯  目标色温'
+  initial_value: 4700
+  restore: false
+  icon: mdi:temperature-kelvin
 light_brightness_lemesh_cn_1120649848_wy0c24_s_2_light:
   friendly_name: '走廊灯 2  灯  目标亮度'
   initial_value: 80

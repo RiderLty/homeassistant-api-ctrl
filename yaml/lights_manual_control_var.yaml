@@ -1,4 +1,4 @@
-alias: 开启灯光时调整到变量设定的目标值
+alias: 手动调整变化同步变量
 description: ""
 triggers:
   - entity_id:
@@ -38,14 +38,19 @@ triggers:
     - light.opple_cn_831954468_moat_s_2_light
 
     trigger: state
-    from: "off"
-    to: "on"
 conditions: []
 actions:
-  - action: light.turn_on
-    target:
-      entity_id: "{{ trigger.entity_id }}"
-    data:
-      color_temp_kelvin: "{{ states('var.light_kelvin_' ~ trigger.entity_id[6:]) | int }}"
-      brightness_pct: "{{ states('var.light_brightness_' ~ trigger.entity_id[6:]) | int }}"
+  - parallel:
+      - action: var.set
+        alias: 修改亮度变量
+        metadata: {}
+        data:
+          entity_id: "{{ 'var.light_brightness_' ~ trigger.entity_id[6:]}}"
+          value: "{{int(trigger.to_state.attributes.brightness / 2.55) | int}}"
+      - action: var.set
+        alias: 修改色温变量
+        metadata: {}
+        data:
+          entity_id: "{{ 'var.light_kelvin_' ~ trigger.entity_id[6:]}}"
+          value: "{{trigger.to_state.attributes.color_temp_kelvin | int}}"
 mode: parallel
