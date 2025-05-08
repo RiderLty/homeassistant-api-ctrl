@@ -1,0 +1,44 @@
+alias: 批量开启或者关闭灯光
+description: ""
+fields:
+  action:
+    description: 执行的动作 turn_on | turn_off
+    required: true
+    example: turn_on
+  device_pattern:
+    description: 设备名称的正则表达式（如 '卧室射灯 \d'）
+    required: true
+    example: 卧室射灯 \d
+sequence:
+  - choose:
+      - conditions:
+          - condition: template
+            value_template: "{{action == 'turn_on'}}"
+        sequence:
+          - action: light.turn_on
+            metadata: {}
+            data: {}
+            target:
+              entity_id: |-
+                {% set lights = namespace(prefixed_list=[]) %} {% for entity in
+                  states.light %}
+                  {% if entity.attributes.friendly_name is match(device_pattern) %}
+                  {% set lights.prefixed_list = lights.prefixed_list + [ entity.entity_id ] %}
+                {% endif %} {% endfor %} {{ lights.prefixed_list | list }}
+        alias: 开启灯光
+      - conditions:
+          - condition: template
+            value_template: "{{action == 'turn_off'}}"
+        sequence:
+          - action: light.turn_off
+            metadata: {}
+            data: {}
+            target:
+              entity_id: |-
+                {% set lights = namespace(prefixed_list=[]) %} {% for entity in
+                  states.light %}
+                  {% if entity.attributes.friendly_name is match(device_pattern) %}
+                  {% set lights.prefixed_list = lights.prefixed_list + [ entity.entity_id ] %}
+                {% endif %} {% endfor %} {{ lights.prefixed_list | list }}
+        alias: 关闭灯光
+    alias: 判断动作
